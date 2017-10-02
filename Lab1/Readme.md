@@ -8,4 +8,4 @@
   ```cp ../```
 5. Run  the jar file using hadoop
   ```hadoop jar MaxTP.jar MaxMonthTemp sampledata/SumnerCountyTemp.dat sampledata/TempOut```
-6. If you want to rerun the job do change the ouput directory as hadoop required output directory to be clean
+6. If you want to rerun the job do change the ouput directory as hadoop requires output directory to be clean
