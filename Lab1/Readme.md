@@ -3,7 +3,7 @@
 2. Compile them
   ```javac -cp `hadoop classpath` *.java```
 3. Create Jar
-  ```jar tf MaxTP.jar```
+  ```jar cf MaxTP.jar *.class```
 4. Copy jar to root of that exercise (Hadoop messes with .class files , hence the jar file movement)
   ```cp ../```
 5. Run  the jar file using hadoop
